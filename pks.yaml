@@ -104,8 +104,8 @@ schemaregistry:
     privkey: |-
     cacerts: |-
   loadBalancer:
-    enabled: false
-    domain: ""
+    enabled: true
+    domain: "supergloo.com"
   dependencies:
     kafka:
       brokerCount: 3
